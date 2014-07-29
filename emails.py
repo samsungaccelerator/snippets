@@ -40,7 +40,7 @@ class OneReminderEmail(webapp.RequestHandler):
                        body=REMINDER)
 
     def get(self):
-        self.post(self)
+        self.post()
 
 class DigestEmail(webapp.RequestHandler):
     def get(self):
@@ -61,7 +61,7 @@ class OneDigestEmail(webapp.RequestHandler):
         return '%s\n%s\n%s' % (snippet.user.pretty_name(), divider, snippet.text)
 
     def get(self):
-        self.post(self)
+        self.post()
 
     def post(self):
         user = user_from_email(self.request.get('email'))
