@@ -13,12 +13,12 @@ Hey there tiger,
 
 The peeps want to know what you're up to. Don't leave 'em hanging.
 
-Last Week
+Last Week:
 -
 -
 -
 
-This Week
+This Week:
 -
 -
 -
