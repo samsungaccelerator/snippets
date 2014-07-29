@@ -2,7 +2,7 @@
 
 {% block body %}
 
-  <div style="float: left; width: 300px">
+  <div style="float: left; width: 400px; overflow-wrap: break-word">
     <h2>{{ user.email }}</h2>
 
     {% if following %}
@@ -24,7 +24,7 @@
     {% endfor %}
 
   </div>
-  <div style="float: left; margin-left: 30px; max-width: 600px">
+  <div style="float: left; margin-left: 30px; max-width: 600px; overflow-wrap: break-word">
     {% for snippet in snippets %}
       <b>{{ snippet.date }}</b><br/>
       <pre>{{ snippet.text|urlize }}</pre>
