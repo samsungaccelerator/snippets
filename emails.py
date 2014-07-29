@@ -9,19 +9,19 @@ from dateutil import *
 from model import *
 
 REMINDER = """
-Hey there rock star,
+Hey there tiger,
 
 The peeps want to know what you're up to. Don't leave 'em hanging.
 
 Last Week
-*
-*
-*
+-
+-
+-
 
 This Week
-*
-*
-*
+-
+-
+-
 """
 
 class ReminderEmail(webapp.RequestHandler):
